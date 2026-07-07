@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Iransans;
+    src: url(IRANSansX-Regular.ttf);
+}
+*{
+
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Iransans;
+    background-color: rgb(14, 14, 202);
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ******form style ***** */
+#form{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 28px;
+    box-shadow: 0 12px 24px #00000014;
+}
+#form .image{
+    display: block;
+    margin: 10px auto;
+}
+
+#form input{
+    font-size: 20px;
+    margin: 20px;
+}
+#form button{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin: 20px auto;
+    transition: all 1s;
+    border-radius: 10px;
+}
+#form button:hover{
+    background-color: midnightblue;
+    color: rgba(162, 173, 204, 0.952);
+}
+
+#form p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(40, 13, 197);
+    margin-top: 15px;
+    font-weight: bolder;
+}
